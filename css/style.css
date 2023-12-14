@@ -1,0 +1,208 @@
+/* body{
+  background-color: green;
+}
+
+@media screen and (max-width: 992px){
+  body{
+    background-color: orange;
+  }
+}
+
+@media screen and (max-width: 700px){
+  body{
+    background-color: red;
+  }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mooli", sans-serif;
+}
+
+main {
+  width: 100vw;
+}
+
+header {
+  background-color: #bdcfe1;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.Logo {
+  padding-left: 10px;
+  padding-top: 24px;
+}
+
+header ul {
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 310px;
+  gap: 20px;
+  padding-top: 11px;
+}
+
+header li a {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li {
+  display: flex;
+  justify-content: center;
+}
+
+#header {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  header ul {
+    display: none;
+  }
+}
+
+footer {
+  background-color: #bdcfe1;
+  width: 100vw;
+  height: 80px;
+  color: #36435d;
+  margin-top: 20px;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 25px;
+  width: 50px;
+  height: 50px;
+  margin-left: 1300px;
+  margin-top: -50px;
+}
+
+.socialMedia img {
+  width: 30px;
+  height: auto;
+  display: flex;
+  justify-items: center;
+}
+
+.icons {
+  background-color: #36435d;
+  border-radius: 50px;
+  display: flex;
+  width: 75px;
+  height: 75px;
+}
+
+#contactInfo {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+/* .infoZelf img{
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  display: flexbox;
+  margin-left: 25%;
+}
+
+#introductie{
+  color: #7495A8;
+  display: flexbox;
+} */
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 900px;
+  margin-left: 300px;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 550px;
+  height: 150px;
+  text-align: left;
+  color: #7495a8;
+  margin-bottom: 10px;
+}
+
+.flex-item-photo img {
+  padding: 5px;
+  width: 300px;
+  height: auto;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.flex-item-text {
+  padding: 5px;
+  width: 300px;
+  height: 150px;
+  text-align: right;
+  color: #74a898;
+  margin-bottom: 10px;
+  margin-left: -25px;
+}
+
+/* responsive voor de homepage */
+@media screen and (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    margin-left: 125px;
+  }
+
+  .flex-item-text {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .flex-item {
+    width: 300px;
+    height: auto;
+    text-align: center;
+  }
+
+  .flex-item-photo {
+    width: 300px;
+    height: auto;
+  }
+
+  .socialMedia {
+    margin-left: 400px;
+  }
+
+  .Logo img {
+    margin-left: 20px;
+  }
+
+  .bars{
+    display: flex;
+    width: 10px;
+    height: auto;
+    margin: 20px;
+  }
+}
+
