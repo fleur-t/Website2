@@ -198,7 +198,7 @@ footer {
     margin-left: 20px;
   }
 
-  .bars{
+  .bars {
     display: flex;
     width: 10px;
     height: auto;
@@ -206,3 +206,32 @@ footer {
   }
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.about-me-text {
+  display: flex;
+  background-color: #7495a8;
+  width: 400px;
+  height: 650px;
+  color: white;
+  gap: 10px;
+}
+
+#container-about-me {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.about-me-text h3 {
+  width: 300px;
+  height: auto;
+  display: flex;
+  text-align: center;
+  padding-left: 50px;
+  padding-top: 5%;
+}
