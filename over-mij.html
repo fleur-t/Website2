@@ -15,13 +15,14 @@
 
 <body>
     <header>
-        <!-- <div class="bars">
-            <img src="img/bars-solid.svg" alt="bars">
-        </div> -->
+        <div class="bars" id="bars">
+            <img src="img/bars-solid.svg" alt="bars" onclick="test()">
+        </div> 
         <div class="Logo">
             <img src="img/Fleur Thijssen.png" alt="Logo">
         </div>
         <nav>
+            
             <div id="header">
                 <ul>
                     <li><a href="indext.html">Home</a></li>
@@ -30,8 +31,17 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
+        </nav>
     </header>
     <main>
+        <div class="menu" id="submenu">
+            <ul>
+                <li><a href="indext.html">Home</a></li>
+                <li><a href="over-mij.html">About me</a></li>
+                <li><a href="mijn-werk.html">My Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
         <h1>About Me</h1>
 
         <div id="container-about-me">
@@ -55,10 +65,38 @@
                 </h3>
             </div>
             <div class="about-me-text">
+                <h3>
+                    Omdat ik in een klein dorpje woon was er maar één basisschool dus ik ging van groep 1 tot groep 8
+                    naar basisschool de Bongerd in Haps. Na 8 jaar ging ik naar de middelbare school ik heb toen voor
+                    metameer Boxmeer gekozen dit was zo'n 10km fietsen van mijn huis. Op metameer ben ik begonnen op
+                    Havo dit gingen de eerst twee jaar best makkelijk, maar toen ik in de 3e kwam ging het iets minder
+                    dus heb ik na de 2e periode besloten Mavo te gaan doen. Na mijn eindexamens heb ik gekozen voor het
+                    ROC waar ik de opleiding Software Developer aan het doen ben.
+                    <br>
+                    Because I live in such a small village there was only one primary school so from grade 1 to grade 8
+                    I went to basisschool de Bongerd in Haps. After 8 years I went to high school, for my high school I
+                    chose Metameer Boxmeer, this was about 45 minutes cycling from my house. I started high school doing
+                    Havo and the first two years went pretty easy but in my 3th year it went downhill so I dropped to
+                    Mavo. After my final exams I chose ROC where I am now studying Software Developer.
 
+                </h3>
             </div>
             <div class="about-me-text">
+                <h3>
+                    Wat ik na de opleiding wil gaan doen weet ik nog niet precies,
+                    er zijn voor mij meerdere opties mogelijk, ik kan hbo gaan doen,
+                    ik kan gaan werken, ik kan ook nog allebei doen. Ook zou ik nog een
+                    opleiding kunnen volgen om het ontwerpen beter onder de knie te krijgen zodat
+                    ik het ontwerpen en het maken van de websites zelf kan doen.
+                    Maar wat ik wel weet is dat ik waarschijnlijk wel iets met websites maken wil gaan doen.
+                    <br>
+                    What I want to do after my study, I don't quite know yet, there are multiple options:
+                    I can do a hbo study, I can start working or I can do both at the same time.
+                    I also can do another study so I can learn how to design even better. So I can design and
+                    make websites myself. But there is one thing I know: I probably want to do something with
+                    making websites.
 
+                </h3>
             </div>
         </div>
     </main>
@@ -80,3 +118,20 @@
 </body>
 
 </html>
+
+<script>
+    function test(){
+        var test = document.getElementById('submenu');
+
+        
+
+        if(test.style.display = "none"){
+            console.log('if');
+            test.style.display = "block";
+        }
+        else{
+            console.log('else');
+            test.style.display = "none";
+        }
+    }
+</script>

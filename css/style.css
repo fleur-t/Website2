@@ -162,6 +162,25 @@ footer {
   margin-bottom: 10px;
   margin-left: -25px;
 }
+.bars {
+  display: none;
+  width: 35px;
+  height: 35px;
+
+}
+
+#submenu{
+  display: none;
+  width: 100vw;
+  height: 100px;
+  background-color: #36435d;
+}
+
+main ul a{
+  display: flex;
+  color: white;
+  justify-content: center;
+}
 
 /* responsive voor de homepage */
 @media screen and (max-width: 600px) {
@@ -199,10 +218,8 @@ footer {
   }
 
   .bars {
-    display: flex;
-    width: 10px;
-    height: auto;
-    margin: 20px;
+    display: block;
+
   }
 }
 
@@ -215,10 +232,11 @@ h1 {
 .about-me-text {
   display: flex;
   background-color: #7495a8;
-  width: 400px;
+  width: 450px;
   height: 650px;
   color: white;
   gap: 10px;
+  border-radius: 15px;
 }
 
 #container-about-me {
@@ -228,10 +246,11 @@ h1 {
 }
 
 .about-me-text h3 {
-  width: 300px;
+  width: 400px;   
   height: auto;
   display: flex;
   text-align: center;
-  padding-left: 50px;
-  padding-top: 5%;
+  padding-left: 25px;
+  padding-top: 10px;
 }
+
