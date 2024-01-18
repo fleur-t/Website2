@@ -29,7 +29,6 @@ header {
   width: 100vw;
   height: 70px;
   display: flex;
-  margin-bottom: 50px;
 }
 
 .Logo {
@@ -79,7 +78,6 @@ footer {
   width: 100vw;
   height: 80px;
   color: #36435d;
-  margin-top: 20px;
 }
 
 .socialMedia {
@@ -235,15 +233,15 @@ main ul a {
 h1 {
   display: flex;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .about-me-text {
   display: flex;
-  background-color: #7495a8;
+  background-color: #D9D9D9;
   width: 450px;
-  height: 650px;
-  color: white;
+  height: 200px;
+  color: #7495A8;
   gap: 10px;
   border-radius: 15px;
 }
@@ -261,4 +259,102 @@ h1 {
   text-align: center;
   padding-left: 25px;
   padding-top: 10px;
+}
+
+#contactForm{
+  width: 80vw;
+  background-color: #D9D9D9;
+  border-radius: 15px;
+  height: 500px;
+}
+
+#contactFormDiv{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  width: 60vw;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 140px;
+}
+
+#nameForm{
+  height: 30px;
+}
+
+#e-mailForm{
+  height: 30px;
+}
+
+#phonenumber{
+  height: 30px;
+}
+
+#bericht{
+  height: 100px;
+}
+
+#landingspagina{
+  background-color: #BDCFE1;
+}
+
+#logo-landingspagina img{
+  padding-top: 100px;
+  width: 30%;
+  height: auto;
+  display: flex;
+}
+
+#logo-landingspagina{
+  display: flex;
+  justify-content: center;
+}
+
+#text-h3-LP{
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#text-h2-lp{
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#text-h4-lp{
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.tussenblok{
+  height: 60px;
+}
+
+#tussenblok2{
+  height: 80px;
+}
+
+#ReadMorePhoto{
+  display: flex;
+  justify-content: center;
+}
+
+#tussenblok3{
+  height: 20px;
+}
+
+#tussenblok4{
+  height: 240px;
+}
+
+#tussenblok5{
+  height: 46px;
 }
